@@ -89,27 +89,27 @@ button {
 .p-8 { padding: 8px; }
 .p-16 { padding: 16px; }
 .p-48 { padding: 48px; }
-.p-72 { padding: 72px; }
+.p-96 { padding: 96px; }
 
 .pt-8 { padding-top: 8px; }
 .pt-8 { padding-top: 16px; }
 .pt-48 { padding-top: 48px; }
-.pt-72 { padding-top: 72px; }
+.pt-96 { padding-top: 96px; }
 
 .pr-16 { padding-right: 16px; }
 .pr-32 { padding-right: 32px; }
 .pr-48 { padding-right: 48px; }
-.pr-72 { padding-right: 72px; }
+.pr-96 { padding-right: 96px; }
 
 .pb-16 { padding-bottom: 16px; }
 .pb-32 { padding-bottom: 32px; }
 .pb-48 { padding-bottom: 48px; }
-.pb-72 { padding-bottom: 72px; }
+.pb-96 { padding-bottom: 96px; }
 
 .pl-16 { padding-left: 16px; }
 .pl-32 { padding-left: 32px; }
 .pl-48 { padding-left: 48px; }
-.pl-72 { padding-left: 72px; }
+.pl-96 { padding-left: 96px; }
 
 .fsz-14 { font-size: 14px; line-height: 20px; }
 .fsz-16 { font-size: 16px; line-height: 24px; }
