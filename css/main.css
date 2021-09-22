@@ -51,6 +51,8 @@ button {
 .w-80 { width: 80%; }
 .w-100 { width: 100%; }
 
+.h-100 { height: 100%; }
+
 .pos-a { position: absolute; }
 .pos-r { position: relative; }
 
@@ -67,6 +69,8 @@ button {
 .mx-auto { margin: 0 auto; }
 .my-auto { margin: auto 0; }
 
+.ta-l { text-align: left; }
+.ta-r { text-align: right; }
 .ta-c { text-align: center; }
 .ta-j { text-align: justify; }
 
@@ -84,13 +88,25 @@ button {
 .p-48 { padding: 48px; }
 .p-72 { padding: 72px; }
 
-.pt-8 { padding-bottom: 8px; }
-.pt-48 { padding-bottom: 48px; }
-.pr-48 { padding-bottom: 48px; }
-.pl-48 { padding-bottom: 48px; }
+.pt-8 { padding-top: 8px; }
+.pt-8 { padding-top: 16px; }
+.pt-48 { padding-top: 48px; }
+.pt-72 { padding-top: 72px; }
+
+.pr-16 { padding-right: 16px; }
+.pr-32 { padding-right: 32px; }
+.pr-48 { padding-right: 48px; }
+.pr-72 { padding-right: 72px; }
 
 .pb-16 { padding-bottom: 16px; }
+.pb-32 { padding-bottom: 32px; }
 .pb-48 { padding-bottom: 48px; }
+.pb-72 { padding-bottom: 72px; }
+
+.pl-16 { padding-left: 16px; }
+.pl-32 { padding-left: 32px; }
+.pl-48 { padding-left: 48px; }
+.pl-72 { padding-left: 72px; }
 
 .fsz-14 { font-size: 14px; line-height: 20px; }
 .fsz-16 { font-size: 16px; line-height: 24px; }
@@ -98,6 +114,9 @@ button {
 .fsz-48 { font-size: 48px; line-height: 1; }
 
 .va-m { vertical-align: middle; }
+
+.lh-20 { line-height: 20px; }
+.lh-72 { line-height: 72px; }
 
 .clearfix::after { clear: both; content: ''; display: table; }
 .inline-middle { vertical-align: middle; display: inline-block; }
