@@ -31,6 +31,7 @@ button {
 /* UTILITIES */
 .bg-white { background-color: #FFFFFF; }
 .bg-black { background-color: #000000; }
+.bg-purple { background-color: #5865f2; }
 .bg-light-dark { background-color: #23272A; }
 .bg-light-gray { background-color: #F6F6F6; }
 
@@ -119,6 +120,7 @@ button {
 .fsz-14 { font-size: 14px; line-height: 20px; }
 .fsz-16 { font-size: 16px; line-height: 24px; }
 .fsz-20 { font-size: 20px; line-height: 28px; }
+.fsz-32 { font-size: 32px; line-height: 40px; }
 .fsz-48 { font-size: 48px; line-height: 1; }
 
 .va-m { vertical-align: middle; }
