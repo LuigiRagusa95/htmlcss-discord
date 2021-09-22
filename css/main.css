@@ -28,6 +28,10 @@ button {
     font-family: "Whitney", sans-serif;
 }
 
+li {
+    list-style: none;
+}
+
 /* UTILITIES */
 .bg-white { background-color: #FFFFFF; }
 .bg-black { background-color: #000000; }
@@ -43,6 +47,8 @@ button {
 .cr-dark-gray { color: #99AAB5; }
 
 .fw-500 { font-weight: 500; }
+.fw-600 { font-weight: 600; }
+.fw-700 { font-weight: 700; }
 
 .pb-100 { padding-bottom: 100%; }
 
@@ -77,6 +83,8 @@ button {
 .mr-16 { margin-right: 16px; }
 .mr-32 { margin-right: 32px; }
 
+
+.mb-8 { margin-bottom: 8px; }
 .mb-16 { margin-bottom: 16px; }
 .mb-32 { margin-bottom: 32px; }
 .mb-48 { margin-bottom: 48px; }
@@ -125,6 +133,7 @@ button {
 .pl-96 { padding-left: 96px; }
 
 .px-16 { padding: 0 16px; }
+.bdb-1 { border-bottom: 1.5px solid #5865f2; }
 
 .fsz-14 { font-size: 14px; line-height: 20px; }
 .fsz-16 { font-size: 16px; line-height: 24px; }
@@ -135,6 +144,7 @@ button {
 .va-m { vertical-align: middle; }
 
 .lh-20 { line-height: 20px; }
+.lh-48 { line-height: 48px; }
 .lh-72 { line-height: 72px; }
 
 .clearfix::after { clear: both; content: ''; display: table; }
