@@ -1,0 +1,34 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, 
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Whitney', -apple-system, BlinkMacSystemFont, 'Segoe UI' , sans-serif;
+}
+
+a { text-decoration: none;}
+
+img { display: block !important; max-width: 100% !important; }
+
+button {
+    border: none;
+    outline: none;
+    appearance: none;
+    background: transparent;
+    font-family: "Whitney", sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+/* main styles */
+.xfx-h-320 { height: 20rem !important; }
+.xfx-hero-background { background-size: cover; background-repeat: no-repeat; background-position: top left; background-image: url(../img/jumbo.png); }
