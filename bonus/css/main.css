@@ -30,7 +30,8 @@ li {
 }
 
 /* main styles */
-.xfx-h-480 { height: 30rem !important; }
+.xfx-h-512 { height: 32rem !important; }
+.xfx-h-max-content { height: max-content !important; }
 .xfx-button-large { padding: 0.5rem 1rem; }
 .xfx-button-white { border-radius: 9999px; background-color: #fff; }
 .xfx-button-black { border-radius: 9999px; background-color: #23272a; }
