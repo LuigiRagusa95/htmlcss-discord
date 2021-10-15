@@ -31,10 +31,12 @@ li {
 
 /* main styles */
 .xfx-h-512 { height: 32rem !important; }
+.xfx-p-56 { padding: 5.5rem !important;}
 .xfx-h-max-content { height: max-content !important; }
 .xfx-button-large { padding: 0.5rem 1rem; }
 .xfx-button-white { border-radius: 9999px; background-color: #fff; }
 .xfx-button-black { border-radius: 9999px; background-color: #23272a; }
+.xfx-h2 { font-weight: 700 !important; font-size: 3rem !important; line-height: 3.5rem !important; }
 
 .xfx-mr-8 { margin-right: 0.5rem !important; }
 .xfx-mr-16 { margin-right: 1rem !important; }
@@ -50,3 +52,4 @@ li {
 
 .xfx-bg-white { background-color: #ffffff; }
 .xfx-bg-black { background-color: #23272a; }
+.xfx-bg-lighgray { background-color: #f6f6f6; }
