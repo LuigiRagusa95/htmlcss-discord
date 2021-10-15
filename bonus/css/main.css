@@ -13,7 +13,7 @@ body {
     font-family: 'Whitney', -apple-system, BlinkMacSystemFont, 'Segoe UI' , sans-serif;
 }
 
-a { text-decoration: none;}
+a { text-decoration: none !important; color: inherit !important;}
 
 img { display: block !important; max-width: 100% !important; }
 
@@ -31,11 +31,21 @@ li {
 
 /* main styles */
 .xfx-h-480 { height: 30rem !important; }
+.xfx-button-large { padding: 0.5rem 1rem; }
 .xfx-button-white { border-radius: 9999px; background-color: #fff; }
+.xfx-button-black { border-radius: 9999px; background-color: #23272a; }
+
 .xfx-mr-8 { margin-right: 0.5rem !important; }
-.xfx-object-fit img { object-fit: contain !important; width: 100%; height: calc((9 / 16) * 100%); }
+.xfx-mr-16 { margin-right: 1rem !important; }
+.xfx-object-fit img { object-fit: cover !important; width: 100%;height: calc((9 / 16) * 100%); }
 .xfx-centered { position: absolute !important; top: 0; left: 50% !important; transform: translate(-50%) !important; }
 .xfx-hero-background { background-size: cover; background-repeat: no-repeat; background-position: top left; background-image: url(../img/jumbo.png); }
 
+.xfx-title-display { font-size: 3rem !important; }
+.xfx-fsz-16 { font-size: 1rem; line-height: 1.5rem; }
 /* colors */
+.xfx-xlr-white { color: #ffffff; }
 .xfx-clr-black { color: #23272a; }
+
+.xfx-bg-white { background-color: #ffffff; }
+.xfx-bg-black { background-color: #23272a; }
