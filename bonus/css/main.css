@@ -30,5 +30,12 @@ li {
 }
 
 /* main styles */
-.xfx-h-320 { height: 20rem !important; }
+.xfx-h-480 { height: 30rem !important; }
+.xfx-button-white { border-radius: 9999px; background-color: #fff; }
+.xfx-mr-8 { margin-right: 0.5rem !important; }
+.xfx-object-fit img { object-fit: contain !important; width: 100%; height: calc((9 / 16) * 100%); }
+.xfx-centered { position: absolute !important; top: 0; left: 50% !important; transform: translate(-50%) !important; }
 .xfx-hero-background { background-size: cover; background-repeat: no-repeat; background-position: top left; background-image: url(../img/jumbo.png); }
+
+/* colors */
+.xfx-clr-black { color: #23272a; }
